@@ -1,0 +1,90 @@
+<html lang="en"><!--
+PetClinic :: a Spring Framework demonstration
+--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PetClinic :: a super  Spring Framework demonstration</title>
+
+
+    
+    <link href="/petclinic/webjars/bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/petclinic/resources/css/petclinic.css" rel="stylesheet">
+
+    
+    <script src="/petclinic/webjars/jquery/2.0.3/jquery.js"></script>
+
+    <!-- jquery-ui.js file is really big so we only load what we need instead of loading everything -->
+    
+    <script src="/petclinic/webjars/jquery-ui/1.10.3/ui/jquery.ui.core.js"></script>
+
+    
+    <script src="/petclinic/webjars/jquery-ui/1.10.3/ui/jquery.ui.datepicker.js"></script>
+
+    <!-- jquery-ui.css file is not that big so we can afford to load it -->
+    
+    <link href="/petclinic/webjars/jquery-ui/1.10.3/themes/base/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="/petclinic/dandelion/datatables/css/jquery.dataTables.css">
+<link rel="stylesheet" href="/petclinic/dandelion/datatables/features/themes/bootstrap2/css/dataTables.bootstrap.css">
+</head>
+
+
+
+
+<body style="">
+<div class="container">
+    
+
+
+
+<img src="/petclinic/resources/images/banner-graphic.png">
+
+<div class="navbar" style="width: 601px;">
+    <div class="navbar-inner">
+        <ul class="nav">
+            <li style="width: 120px;"><a href="/petclinic/"><i class="icon-home"></i>
+                Maison</a></li>
+            <li style="width: 150px;"><a href="/petclinic/owners/find.html"><i class="icon-search"></i> Find owners</a></li>
+            <li style="width: 160px;"><a href="/petclinic/vets.html"><i class="icon-th-list"></i> Veterinarians</a></li>
+            <li style="width: 110px;"><a href="/petclinic/oups.html" title="trigger a RuntimeException to see how it is handled"><i class="icon-warning-sign"></i> Error</a></li>
+        </ul>
+    </div>
+</div>
+	
+
+
+    <h2>Veterinarians</h2>
+
+    <div id="vets_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row-fluid"><div class="span6"></div><div class="span6"><div id="vets_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="vets"></label></div></div><div id="vets_processing" class="dataTables_processing" style="display: none;">Processing...</div></div><div class="row-fluid"><div class="span12"><table id="vets" class="table table-striped dataTable no-footer" role="grid"><thead><tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="vets" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 302px;">Name</th><th class="sorting" tabindex="0" aria-controls="vets" rowspan="1" colspan="1" aria-label="Specialties: activate to sort column ascending" style="width: 326px;">Specialties</th></tr></thead><tbody><tr role="row"><td class="sorting_1">Helen Leary</td><td>radiology</td></tr><tr role="row"><td class="sorting_1">Henry Stevens</td><td>radiology</td></tr><tr role="row"><td class="sorting_1">James Carter</td><td>none</td></tr><tr role="row"><td class="sorting_1">Linda Douglas</td><td>dentistry                            surgery</td></tr><tr role="row"><td class="sorting_1">Rafael Ortega</td><td>surgery</td></tr><tr role="row"><td class="sorting_1">Sharon Jenkins</td><td>none</td></tr></tbody></table></div></div><div class="row-fluid"><div class="span6"></div><div class="span6"></div></div></div>
+
+
+    <table class="table-buttons">
+        <tbody><tr>
+            <td>
+                <a href="/petclinic/vets.xml">View as XML</a>
+            </td>
+            <td>
+                <a href="/petclinic/vets.json">View as JSon</a>
+            </td>
+        </tr>
+    </tbody></table>
+
+    
+
+<table class="footer">
+    <tbody><tr>
+        <td width="70%"></td>
+        <td align="right"><img src="/petclinic/resources/images/spring-pivotal-logo.png" alt="Sponsored by Pivotal"></td>
+    </tr>
+</tbody></table>
+
+
+
+</div>
+<script src="/petclinic/dandelion/datatables/js/jquery.dataTables.js"></script>
+<script src="/petclinic/dandelion/datatables/features/themes/bootstrap2/js/dataTables.bootstrap.js"></script>
+<script src="/petclinic/dandelion-assets/71262956b2755b46aa7333e7016344e1/js/dandelion-datatables-30567b7c3990f5e559be593d970fdcd4.js"></script>
+
+
+
+</body></html>

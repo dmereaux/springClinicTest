@@ -1,0 +1,82 @@
+<html lang="en"><!--
+PetClinic :: a Spring Framework demonstration
+--><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PetClinic :: a super  Spring Framework demonstration</title>
+
+
+    
+    <link href="/petclinic/webjars/bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="/petclinic/resources/css/petclinic.css" rel="stylesheet">
+
+    
+    <script src="/petclinic/webjars/jquery/2.0.3/jquery.js"></script>
+
+    <!-- jquery-ui.js file is really big so we only load what we need instead of loading everything -->
+    
+    <script src="/petclinic/webjars/jquery-ui/1.10.3/ui/jquery.ui.core.js"></script>
+
+    
+    <script src="/petclinic/webjars/jquery-ui/1.10.3/ui/jquery.ui.datepicker.js"></script>
+
+    <!-- jquery-ui.css file is not that big so we can afford to load it -->
+    
+    <link href="/petclinic/webjars/jquery-ui/1.10.3/themes/base/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="/petclinic/dandelion/bootstrap2/css/bootstrap.css">
+<link rel="stylesheet" href="/petclinic/dandelion/datatables/css/jquery.dataTables.css">
+<link rel="stylesheet" href="/petclinic/dandelion/datatables/features/themes/bootstrap2/css/dataTables.bootstrap.css">
+</head>
+
+
+
+
+<body style="">
+<div class="container">
+    
+
+
+
+<img src="/petclinic/resources/images/banner-graphic.png">
+
+<div class="navbar" style="width: 601px;">
+    <div class="navbar-inner">
+        <ul class="nav">
+            <li style="width: 120px;"><a href="/petclinic/"><i class="icon-home"></i>
+                Maison</a></li>
+            <li style="width: 150px;"><a href="/petclinic/owners/find.html"><i class="icon-search"></i> Find owners</a></li>
+            <li style="width: 160px;"><a href="/petclinic/vets.html"><i class="icon-th-list"></i> Veterinarians</a></li>
+            <li style="width: 110px;"><a href="/petclinic/oups.html" title="trigger a RuntimeException to see how it is handled"><i class="icon-warning-sign"></i> Error</a></li>
+        </ul>
+    </div>
+</div>
+	
+
+    <h2>Owners</h2>
+
+    <div id="owners_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="dataTables_export " style="float: right;"><a class="btn" style="height: 25px;;;margin-left:2px;" href="/petclinic/owners.html?lastName=&amp;dtt=f&amp;dti=owners&amp;dtf=pdf&amp;dtp=y&amp;dandelionAssetFilterState=false">PDF</a></div><div id="owners_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="owners"></label></div><div id="owners_processing" class="dataTables_processing" style="display: none;">Processing...</div><table id="owners" class="table table-striped dataTable no-footer" role="grid"><thead><tr role="row"><th style="width: 150px;" class="sorting_asc" tabindex="0" aria-controls="owners" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th><th style="width: 200px;" class="sorting" tabindex="0" aria-controls="owners" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending">Address</th><th class="sorting" tabindex="0" aria-controls="owners" rowspan="1" colspan="1" aria-label="City: activate to sort column ascending" style="width: 244px;">City</th><th class="sorting" tabindex="0" aria-controls="owners" rowspan="1" colspan="1" aria-label="Telephone: activate to sort column ascending" style="width: 296px;">Telephone</th><th style="width: 100px;" class="sorting" tabindex="0" aria-controls="owners" rowspan="1" colspan="1" aria-label="Pets: activate to sort column ascending">Pets</th></tr></thead><tbody><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/2.html">Betty Davis</a></td><td>638 Cardinal Ave.</td><td>Sun Prairie</td><td>6085551749</td><td>Basil</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/10.html">Carlos Estaban</a></td><td>2335 Independence La.</td><td>Waunakee</td><td>6085555487</td><td>Lucky                            Sly</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/9.html">David Schroeder</a></td><td>2749 Blackhawk Trail</td><td>Madison</td><td>6085559435</td><td>Freddy</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/3.html">Eduardo Rodriquez</a></td><td>2693 Commerce St.</td><td>McFarland</td><td>6085558763</td><td>Jewel                            Rosy</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/1.html">George Franklin</a></td><td>110 W. Liberty St.</td><td>Madison</td><td>6085551023</td><td>Leo</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/4.html">Harold Davis</a></td><td>563 Friendly St.</td><td>Windsor</td><td>6085553198</td><td>Iggy</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/6.html">Jean Coleman</a></td><td>105 N. Lake St.</td><td>Monona</td><td>6085552654</td><td>Max                            Samantha</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/7.html">Jeff Black</a></td><td>1450 Oak Blvd.</td><td>Monona</td><td>6085555387</td><td>Lucky</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/8.html">Maria Escobito</a></td><td>345 Maple St.</td><td>Madison</td><td>6085557683</td><td>Mulligan</td></tr><tr role="row"><td class="sorting_1"><a href="/petclinic/owners/5.html">Peter McTavish</a></td><td>2387 S. Fair Way</td><td>Madison</td><td>6085552765</td><td>George</td></tr></tbody></table></div>
+
+
+    
+
+<table class="footer">
+    <tbody><tr>
+        <td width="70%"></td>
+        <td align="right"><img src="/petclinic/resources/images/spring-pivotal-logo.png" alt="Sponsored by Pivotal"></td>
+    </tr>
+</tbody></table>
+
+
+
+
+</div>
+<script src="/petclinic/dandelion/jquery/js/jquery.js"></script>
+<script src="/petclinic/dandelion/bootstrap2/js/bootstrap.js"></script>
+<script src="/petclinic/dandelion/datatables/js/jquery.dataTables.js"></script>
+<script src="/petclinic/dandelion/datatables/features/themes/bootstrap2/js/dataTables.bootstrap.js"></script>
+<script src="/petclinic/dandelion-assets/58db5ef591d3f3753ace6cc2b00d1ae6/js/dandelion-datatables-45a0733eb951e7e1a710cf8a8382731b.js"></script>
+
+
+
+</body></html>
